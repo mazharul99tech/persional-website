@@ -1,0 +1,97 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.wrapper{
+    width: 1140px;
+    margin: 0 auto;
+}
+section{
+    height: 500px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 4%;
+}
+
+h3{
+    font-size: 40px;
+}
+p{
+    color: #444444;
+}
+.half-width img {
+    width: 80%;
+}
+h2{
+    font-size: 40px;
+}
+h1{
+    font-size: 50px;
+    color: #ec4c7a;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #f496ad,#ec4c7a);
+    color: white;
+    margin-top: 60px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.bottom-padding{
+    padding-bottom: 40px;
+}
+.biography{
+    background-image: url("../images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.top-banner{
+    background: url("../images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.latest-work{
+    width: 33%;
+    float: left;
+}
+.latest-work img{
+    width: 100%;
+}
+.work-bg{
+    background: url("../images/latest-work-bg.png");
+}
+.latest-header h2{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background: url("../images/footer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.message-area{
+    border-radius: 30px;
+    padding: 20px 0;
+    widows: 80%;
+    background-image: linear-gradient(90deg, #910e2e,#ec4c7a);
+}
+footer .message-area h4, footer .message-area h3{
+    margin: 0;
+    color: white;
+}
+footer h6{
+    font-size: 20px;
+}
+footer p{
+    margin-top: 40px;
+}
